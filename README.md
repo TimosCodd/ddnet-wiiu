@@ -11,12 +11,17 @@ This is a custom fork of DDraceNetwork (DDNet) ported to the Nintendo Wii U cons
 
 Tested and fully functional on both the Cemu emulator and real Wii U console hardware.
 
-![DDNet running on Cemu](wiiu_tools/cemu_screenshot.png)
+![DDNet running on Cemu](docs/cemu_screenshot.png)
 
 ## Quick Build (Wii U)
-To build and package the `.wuhb` bundle on Windows:
+### Windows:
 1. Ensure Docker Desktop is running.
 2. Run **`build_wiiu.bat`** at the repository root.
+3. The packaged app will be generated at `build/DDNet.wuhb`.
+
+### Linux / macOS:
+1. Ensure the Docker daemon is running.
+2. Run **`chmod +x build_wiiu.sh && ./build_wiiu.sh`** at the repository root.
 3. The packaged app will be generated at `build/DDNet.wuhb`.
 
 > [!NOTE]
