@@ -7,6 +7,8 @@ This is a custom fork of DDraceNetwork (DDNet) ported to the Nintendo Wii U cons
 - Corrected FATFS safe-save rename operation for `settings_ddnet.cfg` on SD Card storage.
 - Custom game launch splash banners (TV/GamePad) and high-res icon.
 
+*This port was vibecoded by a mixture of AI models (including Gemini and DeepSeek) with my guidance.*
+
 ## Quick Build (Wii U)
 To build and package the `.wuhb` bundle on Windows:
 1. Ensure Docker Desktop is running.
