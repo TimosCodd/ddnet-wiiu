@@ -1,3 +1,22 @@
+## DDNet Wii U Port
+
+This is a custom fork of DDraceNetwork (DDNet) ported to the Nintendo Wii U console. It features:
+- Core client port compiling to CafeOS using devkitPro / WUT.
+- Wii U GamePad motion controls (gyro aiming) with custom sensitivity.
+- Direct input translation mapping for physical sticks, D-pad, and face buttons to SDL.
+- Corrected FATFS safe-save rename operation for `settings_ddnet.cfg` on SD Card storage.
+- Custom game launch splash banners (TV/GamePad) and high-res icon.
+
+## Quick Build (Wii U)
+To build and package the `.wuhb` bundle on Windows:
+1. Ensure Docker Desktop is running.
+2. Run **`build_wiiu.bat`** at the repository root.
+3. The packaged app will be generated at `build/DDNet.wuhb`.
+
+For more details on the PowerPC instruction patches and manual compilation steps, check out the [wiiu_tools/README.md](file:///c:/Users/Timos/Documents/Development/ddnet/wiiu_tools/README.md).
+
+---
+
 [![DDraceNetwork](https://ddnet.org/ddnet-small.png)](https://ddnet.org)
 
 [![Build status](https://github.com/ddnet/ddnet/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/ddnet/ddnet/actions/workflows/build.yml?branch=master)
