@@ -13,6 +13,9 @@ To build and package the `.wuhb` bundle on Windows:
 2. Run **`build_wiiu.bat`** at the repository root.
 3. The packaged app will be generated at `build/DDNet.wuhb`.
 
+> [!NOTE]
+> You **do not** need to install devkitPro. Docker will automatically download the required compiler image on first run.
+
 For more details on the PowerPC instruction patches and manual compilation steps, check out the [wiiu_tools/README.md](file:///c:/Users/Timos/Documents/Development/ddnet/wiiu_tools/README.md).
 
 ---

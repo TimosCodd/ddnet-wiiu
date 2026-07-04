@@ -8,6 +8,9 @@ We compile the project using a Dockerized devkitPro toolchain, patch the PowerPC
 
 For Windows, you can simply run **`build_wiiu.bat`** at the repository root!
 
+> [!NOTE]
+> You **do not** need to download or install devkitPro. Docker automatically downloads the compiler images when building.
+
 ### Manual Steps / Linux commands
 
 If you want to run the steps manually, perform the following commands in the repository root:
