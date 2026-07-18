@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+# 0. Generate Makefile
+echo "[0/3] Generating Makefiles via CMake..."
+docker run --rm -v "$(pwd):/src" -w /src devkitpro/devkitppc:latest bash -c "mkdir -p build && cd build && cmake .."
+
 echo "=================================================="
 echo "Building DDNet for Wii U..."
 echo "=================================================="
